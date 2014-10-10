@@ -1,0 +1,5 @@
+compile with - mcs FTP.cs Command.cs
+run with - mono FTP.exe <hostname>
+
+start with the USER <username> command
+then the PASS <password> command
