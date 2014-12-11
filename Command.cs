@@ -4,8 +4,7 @@
  *
 */
 
-namespace FTP{
-public class Command()
+public class Command
 {
 
 	private int paramLength;
@@ -14,7 +13,6 @@ public class Command()
 	private string help;
 
 	public Command(string command, string subCMD, string help, int pLength)
-		:this()
 	{
 		this.command = command;
 		this.substituteCommand = subCMD;
@@ -50,5 +48,4 @@ public class Command()
 	{
 		this.help = help;
 	}
-}
 }

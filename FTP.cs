@@ -16,8 +16,7 @@ using System.Net.NetworkInformation;
 /// <summary>
 /// This class contains all methods to create a connection to an FTP server
 /// </summary>
-namespace FTP{
-public class FTP()
+public class FTP
 {
 	/////////////////////////////////////////////////////////////
 	// 	Class Variables
@@ -56,7 +55,6 @@ public class FTP()
 	///  			(21 if no port is sent)
 	/// </param>
 	public FTP(string hostName, int port = 21)
-		:this()
 	{
 		dataSocket = null;
 		dataSocketListener = null;
@@ -567,5 +565,4 @@ public class FTP()
 			ftpClient.runFtp();
 		}
 	}
-}
 }
